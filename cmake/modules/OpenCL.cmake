@@ -1,0 +1,13 @@
+function(configOpenCL)
+  if (NOT OPENCL_VERSION)
+    set (OPENCL_VERSION $ENV{OPENCL_VERSION})
+    if (NOT OPENCL_VERSION)
+      set (OPENCL_VERSION "SYSTEM")
+    endif()
+    set (OPENCL_VERSION "${OPENCL_VERSION}" PARENT_SCOPE)
+  endif()
+
+  if (OPENCL_VERSION MATCHES "1.2")
+    include_directories("${DEPS_DIR}/OpenCL/1.2")
+  endif()
+endfunction()
