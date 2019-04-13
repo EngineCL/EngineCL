@@ -2,6 +2,15 @@
 
 Usability and Performance in Heterogeneous Computing.
 
+* [Core](#core)
+  + [Targets](#targets)
+  + [Examples](#examples)
+    - [Static](#static)
+    - [Dynamic](#dynamic)
+* [Citing](#citing)
+* [Contributions](#contributions)
+* [License](#license)
+
 ## Core
 
 The core is extracted as a library, exposing the Tier-2.
@@ -206,6 +215,32 @@ duration offsets from init:
  schedulerStart: 0 ms.
  schedulerEnd: 1306 ms.
 Success
+```
+
+## Citing
+
+If you use anything from this project, please, cite the following [paper](https://arxiv.org/abs/1805.02755):
+
+```
+Nozal, R., Bosque, J.L., Beivide, R.: EngineCL: Usability and Performance in Heterogeneous Computing. arXiv e-prints arXiv:1805.02755 (May 2018).
+```
+
+Current BibTeX citation details are:
+
+```
+@ARTICLE{EngineCL:2018,
+       author = {{Nozal}, Ra{\'u}l and {Bosque}, Jose Luis and {Beivide}, Ram{\'o}n},
+        title = {{EngineCL: Usability and Performance in Heterogeneous Computing}},
+      journal = {arXiv e-prints},
+     keywords = {Computer Science - Distributed, Parallel, and Cluster Computing, C.1.2, C.1.4, C.1.3, D.1.3, D.2.0, D.2.3, D.2.11, D.2.13, D.4.7, D.4.9, E.1},
+         year = {2018},
+        month = {May},
+          eid = {arXiv:1805.02755},
+        pages = {arXiv:1805.02755},
+archivePrefix = {arXiv},
+       eprint = {1805.02755},
+ primaryClass = {cs.DC}
+}
 ```
 
 ## Contributions
