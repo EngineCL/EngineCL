@@ -8,6 +8,7 @@ Usability and Performance in Heterogeneous Computing.
     - [Static](#static)
     - [Dynamic](#dynamic)
 * [Citing](#citing)
+* [Research](#research)
 * [Contributions](#contributions)
 * [License](#license)
 
@@ -242,6 +243,16 @@ archivePrefix = {arXiv},
  primaryClass = {cs.DC}
 }
 ```
+
+## Research
+
+EngineCL is applied to different fields by well-known research groups, like the Department of Computing and Systems Engineering, from Uniersity of Zaragoza (UNIZAR). 
+
+Some works involve co-execution using complex architectures like FPGAs, and optimizations under time-constrained scenarios, which novelty ideas are developed far from typical OpenCL/HPC applications.
+
+- [GUZ19] Maria Angelica Davila Guzman et al. Cooperative CPU, GPU, and FPGA heterogeneous execution with EngineCL. 10.1007/s11227-019-02768-y. Feb 2019.
+- [GUZ18] Maria Angelica Davila Guzman et al. First Steps Towards CPU, GPU, and FPGA Parallel Execution with EngineCL. CMMSE. Cadiz, Spain. Jul 2018.
+- [NOZ19] Raúl Nozal et al. Towards Co-execution on Commodity Heterogeneous Systems: Optimizations for Time-Constrained Scenarios. WEHA HPCS 2019. Dublin, Ireland. Jul 2019.
 
 ## Contributions
 
