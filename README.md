@@ -9,6 +9,7 @@ Usability and Performance in Heterogeneous Computing.
     - [Dynamic](#dynamic)
 * [Citing](#citing)
 * [Research](#research)
+* [News](#news)
 * [Contributions](#contributions)
 * [License](#license)
 
@@ -253,6 +254,35 @@ Some works involve co-execution using complex architectures like FPGAs, and opti
 - [GUZ19] Maria Angelica Davila Guzman et al. Cooperative CPU, GPU, and FPGA heterogeneous execution with EngineCL. 10.1007/s11227-019-02768-y. Feb 2019.
 - [GUZ18] Maria Angelica Davila Guzman et al. First Steps Towards CPU, GPU, and FPGA Parallel Execution with EngineCL. CMMSE. Cadiz, Spain. Jul 2018.
 - [NOZ19] Raúl Nozal et al. Towards Co-execution on Commodity Heterogeneous Systems: Optimizations for Time-Constrained Scenarios. WEHA HPCS 2019. Dublin, Ireland. Jul 2019.
+
+### Conferences
+
+- EngineCL: Usability and Performance in Heterogeneous Computing. Programmability and Architectures for Heterogeneous Multicores (Workshop MULTIPROG-2019), HIPEAC 2019. Valencia, Spain. Jan 2019.
+- Towards Co-execution on Commodity Heterogeneous Systems: Optimizations for Time-Constrained Scenarios. International Workshop on Exploitation of High Performance Heterogeneous Architectures and Accelerators (WEHA 2019). Dublin, Ireland. Jul 2019.
+- EngineCL: Usability and Performance in Heterogeneous Computing. XXX Jornadas de Paralelismo (JP2019). Sociedad de Arquitectura y Tecnología de Computadores (SARTECO). Cáceres, Spain. Sep 2019.
+- EngineCL: usabilidad y rendimiento en computación heterogénea. Computación reconfigurable, FPGAs y aceleradores no conencionales. XI Seminario de Invierno CAPAP-H. Barcelona. Feb 2020.
+
+## News
+
+EngineCL has been taught and promoted at events and courses:
+
+2018:
+
+- Research seminar, University of Zaragoza (detailed presentation and discussion).
+- UCTechPro: UC Technology and Programming (conference and short hands-on).
+- Science's day: Faculty of Science, UNICAN (presentation).
+- Posters at the VI Doctoral Conference of Group 9 of Universities (presentation).
+
+2019:
+
+- Science's day: Faculty of Science, UNICAN (presentation).
+- Research seminar, University of Cantabria (detailed presentation and discussion).
+- OpenCL and EngineCL in Parallel Programming, 3rd course of Computer Engineering, UNICAN. (presentation).
+- Introduction to EngineCL: HLRS, Stuttgart (presentation).
+- OpenCL and EngineCL workshop in the Faculty of Science (2 days hands-on).
+
+Currently, there are students using EngineCL to develop their Master/Bachelor thesis, 
+related with audio and video processing.
 
 ## Contributions
 
