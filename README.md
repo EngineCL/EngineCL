@@ -3,9 +3,9 @@
 ## EngineCL
 
 [![Peer-reviewed by FGCS](https://img.shields.io/badge/peer--reviewed-FGCS-green)](https://doi.org/10.1016/j.future.2020.02.016)
-[![Public Access](https://img.shields.io/badge/public-ArXiV-7289da)](https://arxiv.org/abs/1805.02755)
-![Compatible with vendors AMD, INTEL, NVIDIA, ARM and VC](https://img.shields.io/badge/vendor-AMD%20%7C%20NVIDIA%20%7C%20INTEL%20%7C%20ARM%20%7C%20VC-lightgrey)
-![Compatible with devices CPU, GPU, iGPU, Xeon Phi and FPGA](https://img.shields.io/badge/device-CPU%20%7C%20GPU%20%7C%20iGPU%20%7C%20Xeon%20Phi%20%7C%20FPGA-darkcyan)
+[![Public Access](https://img.shields.io/badge/public-arXiv-7289da)](https://arxiv.org/abs/1805.02755)
+[![Compatible with vendors AMD, INTEL, NVIDIA, ARM and VC](https://img.shields.io/badge/vendor-AMD%20%7C%20NVIDIA%20%7C%20INTEL%20%7C%20ARM%20%7C%20VC-lightgrey)](https://github.com/EngineCL/EngineCL)
+[![Compatible with devices CPU, GPU, iGPU, Xeon Phi and FPGA](https://img.shields.io/badge/device-CPU%20%7C%20GPU%20%7C%20iGPU%20%7C%20Xeon%20Phi%20%7C%20FPGA-darkcyan)](https://github.com/EngineCL/EngineCL)
 
 Usability and Performance in Heterogeneous Computing.
 
