@@ -1,7 +1,15 @@
-# EngineCL
+![EngineCL](docs/assets/EngineCL_isologo.png)
+
+## EngineCL
+
+[![Peer-reviewed by FGCS](https://img.shields.io/badge/peer--reviewed-FGCS-green)](https://doi.org/10.1016/j.future.2020.02.016)
+[![Public Access](https://img.shields.io/badge/public-ArXiV-7289da)](https://arxiv.org/abs/1805.02755)
+![Compatible with vendors AMD, INTEL, NVIDIA, ARM and VC](https://img.shields.io/badge/vendor-AMD%20%7C%20NVIDIA%20%7C%20INTEL%20%7C%20ARM%20%7C%20VC-lightgrey)
+![Compatible with devices CPU, GPU, iGPU, Xeon Phi and FPGA](https://img.shields.io/badge/device-CPU%20%7C%20GPU%20%7C%20iGPU%20%7C%20Xeon%20Phi%20%7C%20FPGA-darkcyan)
 
 Usability and Performance in Heterogeneous Computing.
 
+* [Introduction](#introduction)
 * [Core](#core)
   + [Targets](#targets)
   + [Examples](#examples)
@@ -12,6 +20,18 @@ Usability and Performance in Heterogeneous Computing.
 * [News](#news)
 * [Contributions](#contributions)
 * [License](#license)
+
+## Introduction
+
+EngineCL is an OpenCL-based runtime system that outstandingly simplifies the co-execution of a single massive
+data-parallel kernel on all the devices of a heterogeneous system.
+It performs a set of low level tasks regarding the management of devices,
+their disjoint memory spaces and scheduling the workload between the system devices while providing a layered API.
+EngineCL has been validated in two compute nodes (HPC and commodity system),
+that combine six devices with different architectures.
+Experimental results show that it has excellent usability compared with OpenCL;
+a maximum 2.8% of overhead compared to the native version under loads of less than a second of execution and a tendency towards zero for longer execution times;
+and it can reach an average efficiency of 0.89 when balancing the load.
 
 ## Core
 
@@ -221,39 +241,37 @@ Success
 
 ## Citing
 
-If you use anything from this project, please, cite the following [paper](https://arxiv.org/abs/1805.02755):
+If you use anything from this project, please, cite the following [paper](https://doi.org/10.1016/j.future.2020.02.016):
 
 ```
-Nozal, R., Bosque, J.L., Beivide, R.: EngineCL: Usability and Performance in Heterogeneous Computing. arXiv e-prints arXiv:1805.02755 (May 2018).
+R. Nozal, J.L. Bosque and R. Beivide, EngineCL: Usability and Performance in Heterogeneous Computing, Future Generation Computer Systems (2020), https://doi.org/10.1016/j.future.2020.02.016.
 ```
 
 Current BibTeX citation details are:
 
 ```
-@ARTICLE{EngineCL:2018,
+@ARTICLE{EngineCL:2020,
        author = {{Nozal}, Ra{\'u}l and {Bosque}, Jose Luis and {Beivide}, Ram{\'o}n},
         title = {{EngineCL: Usability and Performance in Heterogeneous Computing}},
-      journal = {arXiv e-prints},
-     keywords = {Computer Science - Distributed, Parallel, and Cluster Computing, C.1.2, C.1.4, C.1.3, D.1.3, D.2.0, D.2.3, D.2.11, D.2.13, D.4.7, D.4.9, E.1},
-         year = {2018},
-        month = {May},
-          eid = {arXiv:1805.02755},
-        pages = {arXiv:1805.02755},
-archivePrefix = {arXiv},
-       eprint = {1805.02755},
- primaryClass = {cs.DC}
+      journal = {Future Generation Computer Systems},
+     keywords = {Heterogeneous computing, Usability, Performance portability, OpenCL, Parallel programming, Scheduling, Load balancing, Productivity, API, Computer Science - Distributed, Parallel, and Cluster Computing, C.1.2, C.1.4, C.1.3, D.1.3, D.2.0, D.2.3, D.2.11, D.2.13, D.4.7, D.4.9, E.1},
+         year = {2020},
+        month = {Feb},
+          url = {https://doi.org/10.1016/j.future.2020.02.016},
+          doi = {10.1016/j.future.2020.02.016}
 }
 ```
 
 ## Research
 
-EngineCL is applied to different fields by well-known research groups, like the Department of Computing and Systems Engineering, from Uniersity of Zaragoza (UNIZAR). 
+EngineCL is applied to different fields by well-known research groups, like the Department of Computing and Systems Engineering, from Uniersity of Zaragoza (UNIZAR).
 
 Some works involve co-execution using complex architectures like FPGAs, and optimizations under time-constrained scenarios, which novelty ideas are developed far from typical OpenCL/HPC applications.
 
 - [GUZ19] Maria Angelica Davila Guzman et al. Cooperative CPU, GPU, and FPGA heterogeneous execution with EngineCL. 10.1007/s11227-019-02768-y. Feb 2019.
 - [GUZ18] Maria Angelica Davila Guzman et al. First Steps Towards CPU, GPU, and FPGA Parallel Execution with EngineCL. CMMSE. Cadiz, Spain. Jul 2018.
 - [NOZ19] Raúl Nozal et al. Towards Co-execution on Commodity Heterogeneous Systems: Optimizations for Time-Constrained Scenarios. WEHA HPCS 2019. Dublin, Ireland. Jul 2019.
+- [NOZ20] Raúl Nozal et al. EngineCL: Usability and Performance in Heterogeneous Computing. Future Generation Computer Systems. Feb 2020.
 
 ### Conferences
 
@@ -281,7 +299,7 @@ EngineCL has been taught and promoted at events and courses:
 - Introduction to EngineCL: HLRS, Stuttgart (presentation).
 - OpenCL and EngineCL workshop in the Faculty of Science (2 days hands-on).
 
-Currently, there are students using EngineCL to develop their Master/Bachelor thesis, 
+Currently, there are students using EngineCL to develop their Master/Bachelor thesis,
 related with audio and video processing.
 
 ## Contributions
